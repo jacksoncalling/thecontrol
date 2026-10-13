@@ -1,0 +1,34 @@
+{
+  "q01": {
+    "A": "control",
+    "B": "treatment"
+  },
+  "q02": {
+    "A": "control",
+    "B": "treatment"
+  },
+  "q03": {
+    "A": "treatment",
+    "B": "control"
+  },
+  "q04": {
+    "A": "treatment",
+    "B": "control"
+  },
+  "q05": {
+    "A": "control",
+    "B": "treatment"
+  },
+  "q06": {
+    "A": "treatment",
+    "B": "control"
+  },
+  "q07": {
+    "A": "control",
+    "B": "treatment"
+  },
+  "q08": {
+    "A": "control",
+    "B": "treatment"
+  }
+}
