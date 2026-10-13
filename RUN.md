@@ -35,7 +35,7 @@ Anyone (including a mod) can repeat this. Same model, same settings, same prompt
 Grading is blind, and the method was committed before any run.
 
 1. `python scripts/blind.py --key <somewhere outside grading/>/key.json` copies only the response text of each answer into `grading/blind/qNN-A.md` and `qNN-B.md`, shuffled per question. The key stays outside `grading/` until grading is done.
-2. A fresh agent with no context gets `grading/GRADER-BRIEF.md` as its prompt. It reads only `questions.md` and `grading/blind/`, and writes `grading/blind-grades.md` (Correct / Partly correct / Wrong, with the rubric clause and a quote).
-3. Then the key is committed as `grading/key.json` and `results.md` maps the grades back to control and treatment, question by question, including ties and losses.
+2. Two graders from different model makers grade separately, on the same blind files, with the same brief (`grading/GRADER-BRIEF.md`): a fresh Claude agent with no context writes `grading/blind-grades-claude.md`, and Codex (OpenAI) writes `grading/blind-grades-codex.md`. Each reads only `questions.md` and `grading/blind/`, never the other's grades or the key. Verdicts are Correct / Partly correct / Wrong, with the rubric clause and a quote.
+3. Then the key is committed as `grading/key.json` and `results.md` maps both graders' verdicts back to control and treatment, question by question, including ties and losses. It reports how often the two graders agree and lists every disagreement.
 
 Known limit: the blinding is partial. A treatment answer may name the operator's own labels or files, which can give the arm away. Answers are not redacted, because the transcripts stay raw.

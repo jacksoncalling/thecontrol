@@ -1,6 +1,6 @@
 # Grader brief (blind)
 
-This is the exact brief given to the grading agent. It was written and committed before any run.
+This is the exact brief given to both grading agents: a cold Claude agent and Codex (OpenAI), run separately on the same blind files. It was written and committed before any run. The only line that differs between the two is the output file name, given as `<grader>` below (`claude` or `codex`).
 
 ---
 
@@ -11,7 +11,7 @@ You are grading answers to 8 questions about Teresa Torres' Continuous Discovery
 - `questions.md`: for each question, the prompt, the expected answer, the grading rule (Correct / Partly correct / Wrong) and the Torres sources.
 - `grading/blind/q01-A.md`, `q01-B.md` through `q08-A.md`, `q08-B.md`: the answers.
 
-Do not open any other file or folder in this repository, and do not search the web. If an answer mentions a folder, file, framework label or company, ignore that; grade only the substance.
+Do not open any other file or folder in this repository, and do not search the web. In particular, do not open any other `grading/blind-grades-*.md` file or any key file. If an answer mentions a folder, file, framework label or company, ignore that; grade only the substance.
 
 ## How to grade
 
@@ -24,7 +24,7 @@ Do not open any other file or folder in this repository, and do not search the w
 
 ## Output
 
-Write `grading/blind-grades.md` with this structure:
+Write `grading/blind-grades-<grader>.md` with this structure:
 
 ```
 # Blind grades
