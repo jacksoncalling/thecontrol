@@ -32,4 +32,10 @@ Anyone (including a mod) can repeat this. Same model, same settings, same prompt
 
 ## Grading
 
-`results.md` grades every answer against the expected answer and grading rule in `questions.md` (Correct / Partly correct / Wrong), with the reason, for both arms. Ties and losses are reported.
+Grading is blind, and the method was committed before any run.
+
+1. `python scripts/blind.py --key <somewhere outside grading/>/key.json` copies only the response text of each answer into `grading/blind/qNN-A.md` and `qNN-B.md`, shuffled per question. The key stays outside `grading/` until grading is done.
+2. A fresh agent with no context gets `grading/GRADER-BRIEF.md` as its prompt. It reads only `questions.md` and `grading/blind/`, and writes `grading/blind-grades.md` (Correct / Partly correct / Wrong, with the rubric clause and a quote).
+3. Then the key is committed as `grading/key.json` and `results.md` maps the grades back to control and treatment, question by question, including ties and losses.
+
+Known limit: the blinding is partial. A treatment answer may name the operator's own labels or files, which can give the arm away. Answers are not redacted, because the transcripts stay raw.
