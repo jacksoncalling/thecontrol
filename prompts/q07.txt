@@ -1,0 +1,22 @@
+Context: Larder is a meal-planning and grocery-list app for households (invented product). Below is a full customer interview. Statements are numbered.
+
+Interviewer: Would you use a feature that suggests meals based on your weekly budget?
+[1] Yes, definitely, that sounds really useful.
+Interviewer: How do you usually plan your meals?
+[2] Usually on Sundays. I'm pretty organised.
+[3] I always check prices first.
+Interviewer: What do you think about our shopping list?
+[4] It's fine.
+[5] I mean, it could be better. Maybe more colours.
+Interviewer: If we added a budget tracker, how much would you pay for it?
+[6] Maybe five euros a month?
+[7] I'd use it every week for sure.
+Interviewer: What's the most frustrating thing about groceries in general?
+[8] Prices are crazy these days.
+[9] My sister says the same; she's stopped buying fresh fish altogether.
+Interviewer: Great, thanks, that's really helpful.
+
+For this participant's interview snapshot:
+(a) Draw the experience map of the specific occasion the participant described, as a numbered sequence of key moments.
+(b) Identify the moment in that occasion where the participant went over budget, and what they did about it.
+(c) Based on this interview, should the team conclude that this participant would pay for a budget tracker?

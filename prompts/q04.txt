@@ -1,0 +1,11 @@
+Context: Brightfold Labs (invented company) makes Larder, a meal-planning and grocery-list app for households with a free and a paid tier. Here are goals that different people at the company proposed for the Larder product team.
+
+(a) Increase annual subscription revenue by 15%.
+(b) Ship the aisle-sorting feature for shopping lists by the end of Q2.
+(c) Increase the share of weekly active households who cook at least three planned dinners per week from 30% to 40%.
+(d) Increase the number of users who tap the "share list" button each week.
+(e) Reduce churn of paid subscribers.
+(f) Launch an Android tablet app.
+(g) Increase the share of planned meals that households mark as cooked rather than skipped.
+
+Using Teresa Torres' definitions, classify each goal as exactly one of: business outcome, product outcome, traction metric, or output. Give a one-line reason for each. Then say which of these Torres would recommend as the outcome at the top of the team's opportunity solution tree, and why.

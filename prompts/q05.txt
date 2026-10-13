@@ -1,0 +1,10 @@
+Context: The Larder team (invented meal-planning app) is considering a solution: "Scan your supermarket receipt and Larder proposes next week's dinners from what you already bought." They wrote down these assumptions:
+
+(a) Households want Larder to propose a week of dinners based on what they already bought.
+(b) Users will find and understand the "scan receipt" button on the home screen.
+(c) Our text recognition can read receipts from the three largest supermarket chains with at least 95% accuracy.
+(d) Enough free users will upgrade to the paid tier to cover the cost of the receipt-reading service.
+(e) Storing receipts will not expose sensitive purchases (for example medication or alcohol) in ways that could harm users.
+(f) Users will bother to scan a receipt after most shopping trips.
+
+Using Teresa Torres' five assumption types (desirability, viability, feasibility, usability, ethical), label each assumption with one type and give a one-line reason.

@@ -1,0 +1,12 @@
+Context: The Larder team (invented meal-planning app for households) is building an opportunity solution tree. Team members proposed these cards for the opportunity level:
+
+(a) "I need a button that sorts my list by aisle."
+(b) "I waste time walking back and forth in the store."
+(c) "I want a weekly meal-kit delivery."
+(d) "I don't know who will be home for dinner on which nights."
+(e) "Increase the share of households who cook at least three planned dinners per week."
+(f) "We need more free users to upgrade to premium."
+(g) "I want Larder to sync with my partner's calendar."
+(h) "I throw away food I forgot I had bought."
+
+Using Teresa Torres' definitions, say for each card whether it belongs at the opportunity level. If it does not, say where it belongs or what is wrong with it, in one line.

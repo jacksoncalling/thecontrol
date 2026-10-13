@@ -1,0 +1,23 @@
+Context: Larder is a meal-planning and grocery-list app for households (invented product). Below is an excerpt from a customer interview. Statements are numbered.
+
+Interviewer: Tell me about the last time you planned your meals for the week.
+[1] Last Sunday, around four, I sat down at the kitchen table with Larder open and the supermarket flyer next to me.
+[2] I started with the fridge, because the week before I'd thrown out half a bag of spinach and a pack of chicken that had gone off.
+[3] I scrolled the recipes, but I couldn't find any way to start from what I already had, so I typed "spinach" into search and got about forty results, most of them needing things I didn't have.
+Interviewer: What happened next?
+[4] I gave up on that part and texted my partner to ask which nights he'd be home, because on Tuesdays and Thursdays he sometimes works late and then nobody eats the dinner I planned.
+[5] He answered two hours later, and by then I'd already finished the list.
+[6] So I had to redo Thursday.
+Interviewer: And the shopping itself?
+[7] On Monday in the shop the list was in alphabetical order, so I kept walking back and forth between the aisles; it took me almost an hour.
+[8] You really need a button that sorts the list by aisle.
+[9] Honestly, I usually give up halfway through planning anyway, everybody does.
+[10] It would be great if Larder synced with my partner's work calendar.
+Interviewer: Anything else?
+[11] I'd probably pay for it if it did all that.
+[12] Anyway, the leftovers are the real problem for us.
+
+Using Teresa Torres' Continuous Discovery definitions:
+(a) List the statement numbers that contain an opportunity, and phrase each opportunity in one short line from the customer's point of view.
+(b) List the statement numbers that are solutions (feature requests) presented as if they were needs. For each, name the opportunity that most likely sits behind it, if the excerpt shows one.
+(c) For any statement you cannot classify confidently, say so and say what you would need to find out.
