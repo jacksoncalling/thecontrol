@@ -18,7 +18,7 @@ Anyone (including a mod) can repeat this. Same model, same settings, same prompt
 ## Treatment arm
 
 1. Create a new Claude project, for example "comp14 treatment".
-2. Upload every `.md` file from `discovery-operator/` to the project knowledge (21 files: `CLAUDE.md`, `README.md`, the five `CONTEXT.md` files, everything under `docs/`, `examples/`, `reference/`, and the `.md` files under `output/`). The `.html` and `.js` files are the visual tree and are not uploaded.
+2. Upload all 21 files from `treatment-upload/` to the project knowledge (select all, drag in once). That folder is every `.md` file from `discovery-operator/`, made by `python scripts/make_upload.py`. A project stores files without folders and the operator has five files named `CONTEXT.md`, so the path is built into each name (`01-outcome/CONTEXT.md` becomes `01-outcome__CONTEXT.md`). Contents are unchanged. The `.html` and `.js` files are the visual tree and are not uploaded.
 3. **Never upload `questions.md`.** It holds the expected answers.
 4. Project instructions, exactly as the operator's README says:
 
