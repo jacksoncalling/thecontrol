@@ -128,7 +128,7 @@ Every opportunity gets exactly one route:
 Follow `docs/snapshot-template.md`. One page max. Must contain:
 - Interview quality rating (from 02-interview)
 - Interviewee profile (role, segment, context — no PII)
-- Experience map (the story they told, step by step)
+- Experience map (the story they told, step by step). If no specific story was told, say so and leave it empty. Never assemble one from generalisations.
 - Top 5 opportunities with classification and routing
 - Solution signals (noted, not acted on)
 - One memorable quote
@@ -168,4 +168,5 @@ When given multiple transcripts at once:
 - Never discard data. Even irrelevant opportunities get parked with a reason.
 - Never ask the PM what to do with an opportunity. Make the routing call. If the rules don't cover it, default to PARK with a note explaining why and what context would help.
 - Never skip the interview quality cap. Three thin interviews do not equal one rich one.
+- Never create an opportunity from generalisations, opinions or predictions alone. If a Thin interview has no story behind a theme (for example "prices are crazy"), it becomes a follow-up question for the next interview, not an Emerging opportunity.
 - Never extract more than 5 without ranking. The PM needs a decision-ready list, not a dump.

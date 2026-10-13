@@ -58,6 +58,14 @@ discovery-triage-operator/
 
 ## Navigation
 
+**Direct questions come first.** If the PM asks a direct question about the method
+(classify these statements, which assumption to test first, is this an outcome or an
+output, what does this excerpt show), answer that question directly and completely.
+Do not ask for a product outcome first, do not route it through the phases, and do not
+mention the demo data in `output/`. The phases below are for work the PM brings in to
+process, not for one-off questions. (Added after the comp #14 control run, where the
+operator asked for an outcome on 4 of 8 single questions.)
+
 | When the PM says... | Go to | The agent... |
 |---------------------|-------|-------------|
 | "Here's our goal" / "Our outcome is..." | `01-outcome/` | Validates the outcome is a product outcome, not a business metric. Stores it. |

@@ -22,6 +22,8 @@ One page maximum. If it does not fit, cut narrative — keep decisions.
 
 The story the interviewee told, broken into sequential steps. Each step is a moment in their experience. Use the interviewee's own language where possible.
 
+**If no specific story was told, the map stays empty.** Write "No specific occasion was described, so there is no experience map for this interview." Do not build a map, or a "fragment" of one, from generalisations ("usually", "always"), opinions, predictions or someone else's experience. Those go under follow-up questions instead.
+
 ```
 1. [First thing that happened] →
 2. [Next thing] →
