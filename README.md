@@ -13,8 +13,8 @@ Entry for Clief Notes Weekly Comp #14, "The Control", by Joshua Baker.
 | `questions.md` | 8 questions with expected answers, grading rules and Torres sources. Committed first (`0fbe034`), before any run. |
 | `SOURCES.md` | The Torres / Product Talk pages the question writer read. |
 | `prompts/` | Each prompt exactly as pasted. |
-| `discovery-operator/` | The folder under test, unchanged from its public version (argo-continuous-discovery `6d70e8e`). |
-| `treatment-upload/` | The 21 files actually uploaded to the Claude project (same files, path built into the name). |
+| `discovery-operator/` | The folder under test. Identical to its public version (argo-continuous-discovery `6d70e8e`) during the runs; two fixes were added after the results (see results.md and git log). |
+| `treatment-upload/` | The 21 files actually uploaded to the Claude project for the run (path built into the name). Not updated with the later fixes, so it stays the record of what was tested. |
 | `control/` | Raw transcripts, no folder. |
 | `treatment/` | Raw transcripts, with the folder. |
 | `grading/` | Grader brief, blind answer files, blind grades, and the key. |
@@ -39,6 +39,7 @@ The operator was built for comp #7 and uses a different ICM layout. I didn't reb
 4. Control transcripts committed, then treatment transcripts.
 5. Blind answer files committed, graded blind, then unblinded.
 6. Results written.
+7. Two fixes to the folder, from what the results showed. Not re-run yet.
 
 ## Credits
 

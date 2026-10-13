@@ -66,9 +66,11 @@ The control shows this directly. Asked to work "using Teresa Torres' definitions
 
 ## What changed in the folder because of this
 
-See the section below once the fix is committed. Planned, from notes 2 and 3:
+Two fixes, both in `discovery-operator/`, committed after the results (see `git log`). `treatment-upload/` stays as the version that was actually tested.
 
-- In `CLAUDE.md`: if the user asks a direct method question instead of bringing work to process, answer it directly. Don't ask for an outcome first and don't mention demo data.
-- In `03-opportunities/docs/snapshot-template.md` and `02-interview/CONTEXT.md`: when no specific story was told, the experience map stays empty and says so. Generalisations go to insights or follow-up questions, never to a new opportunity.
+1. **Direct questions come first** (from note 3). `CLAUDE.md` now says: if the PM asks a direct method question, answer it directly and completely. Don't ask for a product outcome first, don't route it through the phases, don't mention the demo data. The phases are for work the PM brings in to process.
+2. **No story, no map** (from note 2). `03-opportunities/docs/snapshot-template.md` and `03-opportunities/CONTEXT.md` now say: if no specific story was told, the experience map stays empty and says so. No map or "fragment" built from generalisations, opinions, predictions or someone else's experience. A theme with no story behind it becomes a follow-up question, not an Emerging opportunity.
 
-These changes have **not** been re-run against the questions.
+**These fixes have not been re-run against the questions.** They are a claim until someone runs the treatment arm again with the new folder. The obvious checks are Q07 (map stays empty, no new opportunity) and Q01, Q03, Q05 (no outcome request).
+
+Not changed, but worth flagging: the folder says "Torres requires minimum 3-4 story-based interviews before mapping the opportunity space" (`02-interview/CONTEXT.md`), and the treatment repeated it twice. None of the pages in `SOURCES.md` support that number, and I haven't checked it against the book.
