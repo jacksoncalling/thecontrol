@@ -20,6 +20,7 @@ Entry for Clief Notes Weekly Comp #14, "The Control", by Joshua Baker.
 | `grading/` | Grader brief, blind answer files, blind grades, and the key. |
 | `RUN.md` | How to re-run both arms and the grading. |
 | `results.md` | What changed, question by question, including ties and losses. |
+| `results-audit.md` | A self-audit of results.md for bias, and what it changed. |
 
 ## How the folder maps to the comp's five files
 
